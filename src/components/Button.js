@@ -1,7 +1,7 @@
 import "./Button.css"
 
-function Button(){
-    return <button className="button">Word</button>
+function Button(props){
+    return <button className="button">{props.children}</button>
 }
 
 export default Button
